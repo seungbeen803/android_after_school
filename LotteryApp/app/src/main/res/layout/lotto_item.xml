@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--목록에 항목이 하나씩 있는데 그 항목을 보여줄 레이아웃을 만들어줌-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
