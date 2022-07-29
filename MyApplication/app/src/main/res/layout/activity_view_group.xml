@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--LinearLayout 태그는 양옆이나 위아래로 배치할 때 사용-->
+<!--horizontal이면 width을 0px로 해주어야한다.-->
+<!--vertical이면 height을 0px로 해주어야한다.-->
+<!--weight은 화면의 비율-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="1"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1" />
+
+    <Button
+        android:text="2"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="3" />
+</LinearLayout>
